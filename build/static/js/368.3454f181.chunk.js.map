@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/368.3454f181.chunk.js","mappings":"4IAQA,UARA,WACE,OACE,+BACE","sources":["pages/contact.js"],"sourcesContent":["function Contact() {\n  return (\n    <>\n      <h2>Nous contacter</h2>\n    </>\n  );\n}\n\nexport default Contact;\n"],"names":[],"sourceRoot":""}

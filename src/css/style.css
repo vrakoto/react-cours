@@ -1,20 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
-    border: 2px solid black;
-    margin: auto;
-    text-align: center;
-    padding: 1% 2%;
-    width: 50%;
-    border-radius: 10px;
-    margin-bottom: 5%;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  padding: 1% 2%;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 5%;
 }
 
 .card p {
-    padding-top: 5%;
+  padding-top: 5%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.propos {
+  padding: 20px;
+  height: 200px;
+  background-color: rgba(60, 148, 254, 255);
+  color: white;
+  letter-spacing: 1px;
+}
+
+.propos img {
+  border-radius: 50%;
+}
+
+.propos .content {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  text-align: justify;
+  width: 80%;
+}
+
+.contentSplit {
+  background-color: #544cff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 35%;
+}
+
+.sectionInside {
+  margin: 10px 0 30px 0;
+}
+
+.sectionTitre {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.intitule-logo img {
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+}
+
+.intitule-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionSeparation {
+  margin-top: 50px;
+}
+
+.separation {
+  width: 100%;
+  border: 1px solid grey;
+  height: 1px;
+  margin: 20px 0;
 }

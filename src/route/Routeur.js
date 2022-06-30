@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import '../css/style.css'
+import "../css/style.css";
 
 import NotificationLoader from "../components/loader/loading";
 import LayoutNav from "../layout/navbar/layoutNav";
@@ -22,6 +22,8 @@ function Routeur() {
           <Route path="/projets" element={<Projet />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/contact" element={<Contact />} />
+
+          {/* <Route path="/cv_formations" element={<Contact />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </LayoutNav>
