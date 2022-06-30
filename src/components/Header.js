@@ -1,27 +1,34 @@
-import { Routes, Route } from "react-router-dom"
-import Navbar from "../components/Navbar"
-import Home from "../pages/home"
-import Projet from "../pages/projet"
-import CV from "../pages/cv"
-import Contact from "../pages/contact"
-import Error from "../pages/404"
+import { Link } from 'react-router-dom'
 
-function Header() {
+const Header = () => {
     return (
-      <header className="App-header">
-        <p>Barre de navigation</p>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="/" title="redirection sur la home">
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/cv" title="redirection sur la home">
+                            CV
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/projets" title="redirection sur la page Projet">
+                            Projet
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/contact" title="redirection sur la page contact">
+                            Contact
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    )
+}
 
-        <Navbar />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projet" element={<Projet />} />
-          <Route path="/cv" element={<CV />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-      </header>
-    );
-  }
-  
-export default Header;
+export default Header

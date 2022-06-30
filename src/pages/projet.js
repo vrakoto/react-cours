@@ -1,11 +1,9 @@
 function Projet() {
-    return (
-      <>
-        <main>
-          <h2>Voici nos projets</h2>
-        </main>
-      </>
-    );
+  return (
+    <>
+      <h2>Voici nos projets</h2>
+    </>
+  );
 }
 
-export default Projet
+export default Projet;

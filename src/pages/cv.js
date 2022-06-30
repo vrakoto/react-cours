@@ -1,11 +1,9 @@
 function CV() {
-    return (
-      <>
-        <main>
-          <h2>Consulter nos CV</h2>
-        </main>
-      </>
-    );
+  return (
+    <>
+      <h2>Consulter nos CV</h2>
+    </>
+  );
 }
 
-export default CV
+export default CV;
