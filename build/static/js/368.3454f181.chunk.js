@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreactipssib32022=self.webpackChunkreactipssib32022||[]).push([[368],{368:function(e,s,c){c.r(s);var n=c(184);s.default=function(){return(0,n.jsx)(n.Fragment,{children:(0,n.jsx)("h2",{children:"Nous contacter"})})}}}]);
+//# sourceMappingURL=368.3454f181.chunk.js.map

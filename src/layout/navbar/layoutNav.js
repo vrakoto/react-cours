@@ -1,14 +1,14 @@
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const LayoutNav = (props) => {
-    return (
-        <>
-            <Header />
-                {props.children}
-            <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      {props.children}
+      <Footer />
+    </>
+  );
+};
 
-export default LayoutNav
+export default LayoutNav;

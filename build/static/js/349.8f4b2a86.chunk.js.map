@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/349.8f4b2a86.chunk.js","mappings":"4IAQA,UARA,WACE,OACE,+BACE","sources":["pages/projet.js"],"sourcesContent":["function Projet() {\n  return (\n    <>\n      <h2>Voici nos projets</h2>\n    </>\n  );\n}\n\nexport default Projet;\n"],"names":[],"sourceRoot":""}

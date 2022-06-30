@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/982.be033b0f.chunk.js","mappings":"4IAQA,UARA,WACE,OACE,+BACE","sources":["pages/cv.js"],"sourcesContent":["function CV() {\n  return (\n    <>\n      <h2>Consulter nos CV</h2>\n    </>\n  );\n}\n\nexport default CV;\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/568.99479753.chunk.js","mappings":"4IASA,UATA,WACE,OACE,iCACE,sDACA","sources":["pages/home.js"],"sourcesContent":["function Home() {\n  return (\n    <>\n      <h2>Welcome to the homepage!</h2>\n      <p>You can do this, I believe in you.</p>\n    </>\n  );\n}\n\nexport default Home;\n"],"names":[],"sourceRoot":""}

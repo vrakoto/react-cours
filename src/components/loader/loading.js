@@ -1,7 +1,7 @@
-import React from 'react'
-import ContentLoader from 'react-content-loader'
+import React from "react";
+import ContentLoader from "react-content-loader";
 
-const NotificationLoader = props => {
+const NotificationLoader = (props) => {
   return (
     <ContentLoader
       width={350}
@@ -38,7 +38,7 @@ const NotificationLoader = props => {
       <rect x="103" y="534" rx="3" ry="3" width="178" height="6" />
       <rect x="5" y="8" rx="3" ry="3" width="331" height="7" />
     </ContentLoader>
-  )
-}
+  );
+};
 
-export default NotificationLoader
+export default NotificationLoader;

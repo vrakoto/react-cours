@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreactipssib32022=self.webpackChunkreactipssib32022||[]).push([[568],{568:function(e,s,i){i.r(s);var n=i(184);s.default=function(){return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)("h2",{children:"Welcome to the homepage!"}),(0,n.jsx)("p",{children:"You can do this, I believe in you."})]})}}}]);
+//# sourceMappingURL=568.99479753.chunk.js.map
