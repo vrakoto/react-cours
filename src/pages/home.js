@@ -1,4 +1,6 @@
 import Card from "../components/card/card";
+import CounterBtn from "../hooks/counterBtn";
+import HeaderEffect from "../hooks/headerEffect";
 import LogoReact from "../img/logo192.png";
 
 function Home() {
@@ -10,11 +12,9 @@ function Home() {
         desc="Lorem ipsum..."
         image={LogoReact}
       ></Card>
-      <Card
-        title="Je suis un second titre"
-        desc="Lorem ipsum..."
-        image={LogoReact}
-      ></Card>
+
+      <CounterBtn />
+      <HeaderEffect />
     </>
   );
 }
